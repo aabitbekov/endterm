@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package prime;
-option go_package="c";
+option go_package="prime/primepb";
 
 message PrimeRequest{
   int64 num = 1;
